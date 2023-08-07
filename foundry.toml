@@ -1,0 +1,14 @@
+[profile.default]
+solc_version = "0.8.13"
+optimizer = true
+optimizer_runs = 3000
+verbosity = 2
+gas_reports = ["*"]
+src = "contracts"
+test = "test"
+out = "out"
+extra_output_files = ["abi", "evm.bytecode"]
+libs = ["node_modules"]
+remappings=["ds-test/=node_modules/ds-test/src/"]
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
