@@ -8,7 +8,6 @@ src = "contracts"
 test = "test"
 out = "out"
 extra_output_files = ["abi", "evm.bytecode"]
-libs = ["node_modules"]
-remappings=["ds-test/=node_modules/ds-test/src/"]
+libs = ["lib"]
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
